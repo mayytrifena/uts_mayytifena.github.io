@@ -1,0 +1,201 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.navbar{
+    font-size: 20px;
+}
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid #f39aa6;
+    margin-right: -35px;
+    font-family: 'Poppins';
+}
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:#f39aa6;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 70px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-top: 25px;
+    font-family: 'Poppins';
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 25px;
+	line-height: 2;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #f39aa6;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(150, 107, 107, 0.37);
+	z-index: 1;
+}
+
+/* start header */
+
+.text{
+    width: 100%;
+    font-size: 25px;
+    line-height: 20px;
+}
+.text h3{
+    font-size: 60px;
+    font-family: 'Poppins';
+}
+.btn-one{
+    background-color: #f39aa6;
+    color: white;
+}
+.btn-two{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+}
+.btn-one:hover{
+    background-color: white;
+    color: black;
+}
+
+/* start ABOUT */
+.about{
+    line-height: 30px; 
+    font-size: 20px;
+    background-color: white;
+}
+.about-text ul{
+    list-style: none;
+    padding: 0px;    
+}
+.about-text h2{
+    font-family: 'Poppins';
+    color: #9e0045;
+    font-size: 40px;  
+}
+
+/* start contact */
+.knowledge-text{
+    line-height: 30px;
+    font-size: 20px;
+}
+.knowledge-text h2{
+    color: #9e0045;
+    font-size: 40px; 
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+/* start info */
+.theInfo{
+    line-height: 30px;
+    background-color: #f39aa6;
+    font-size: 18px;
+}
+.contact-details ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.contact .contact-about a {
+    font-size: 18px;
+    display: inline-block;
+    background: white;
+    color: #d43076;
+    line-height: 0;
+    padding: 15px 0;
+    margin-right: 5px;
+    border-radius: 75%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d43076;
+  }
+
+.contact .contact-about a:hover {
+    background: #d43076;
+    color: rgba(41, 36, 36, 0.11);
+  }
+
+.section{
+    background-color: white;
+}
+.images-text h2{
+    color: #9e0045;
+    font-size: 40px; 
+}
+.image p{
+    font-size: 20px; 
+     line-height: 30px;
+}
+.card-body .btn:hover{
+    background-color: white;
+    color: black;
+}
+.card:hover {
+    box-shadow: -2px -6px 28px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -6px 28px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -6px 28px -5px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.img-fluid h3{
+    color: #9e0045;
+    font-size: 40px; 
+}
+
+
+/* last section */
+.foot{  
+    background-color: #f39aa6;
+    color: rgb(2, 2, 2);
+}
+
+
+@media only screen and (max-width: 767px) {
+	.carousel-caption {
+		bottom: 165px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+}
